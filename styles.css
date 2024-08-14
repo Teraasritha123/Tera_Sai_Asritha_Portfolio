@@ -1,0 +1,165 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-color: rgba(16, 56, 91, 0.567);
+}
+
+header {
+    background: linear-gradient(to right, #2d626837, #35afb6);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    display: inline-block;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    
+    transform: scale(1.2);
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    color: #000000;
+    border-bottom: 2px solid #27211d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.head{
+    text-decoration-color: black;
+    color: black;
+    font-size: 70px;
+    border-top: 0px;
+    padding-top: 0px;
+    margin-top: 5px;
+    border-top: none;
+    border-bottom: none;
+    padding: 0%;
+    grid-area: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+.subhead{
+    color: rgb(9, 3, 3);
+    font-size: 70px;
+    border-bottom:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    border-top: none;
+    border-bottom: none;
+    padding: 0%;
+    margin-top: 5px;
+    padding-top: 0px;
+
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #ccc;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #666;
+}
+
+.social-icons a .fab {
+    line-height: 40px;
+}
+#projects{
+    font-size: 20px;    
+}
+#internships{
+    font-size: 20px;
+}
+#about{
+    font-size: 20px;
+}
+#skills{
+    font-size: 20px;
+}
+#certifications{
+    font-size: 20px;
+}
+#contact{
+    font-size: 20px;
+}
+#education{
+    font-size: 20px;
+}
+.edu{
+    font-size: 25px;
+}
+.ulul{
+    font-size: 30px;
+}
